@@ -5,12 +5,16 @@ body{
 h1{
     font-size: 50px ;
 }
-.bg {
+h2{
+    font-size: 35px;
+}
+.bg-top {
     background-image: url( images/top-banner.png);
     background-repeat: no-repeat;
 }
 .container{
     display: flex;
+    margin-bottom: 100px;
      
 
 }
@@ -29,9 +33,34 @@ h1{
     color: white;
     border-radius: 10px;
 }
-.bg-2{
-    margin-top: 100px;
+.bg-bottom{
+    
     background-image: url(images/dream-bg.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experience-part{
+    width: 40%;
+    margin: 0% 5%;
+    padding: 30px ;
+    box-shadow: 10px 10px 30px grey;
+}
+#full-stack-slice{
+    border-left: 5px solid;
+    border-image:linear-gradient(red ,yellow);
+    border-image-slice: 1;
+
+}
+#baby-slice{
+    border-left: 5px solid;
+    border-image:linear-gradient(rgb(0, 204, 255) ,rgb(79, 226, 182));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
